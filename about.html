@@ -31,21 +31,25 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="./">
-          <img src="./images/logo.png" alt="" class="logo d-none d-sm-block" />
+        <a href="./" title="homepage">
+          <img
+            src="./images/logo.png"
+            alt="shecodes logo"
+            class="logo d-none d-sm-block"
+          />
           <img
             src="./images/symbol.png"
-            alt=""
+            alt="shecodes small logo"
             class="logo d-block d-sm-none"
           />
         </a>
         <ul>
           <li class="active">
-            <a href="./">Home</a>
+            <a href="./" title="homepage">Home</a>
           </li>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./work.html">Portfolio</a></li>
-          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./about.html" title="about me link">About</a></li>
+          <li><a href="./work.html" title="portfolio page">Portfolio</a></li>
+          <li><a href="./contact.html" title="contact me page">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -63,12 +67,75 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="./work.html" class="btn btn-branding">See my projects</a>
+            <a
+              href="./work.html"
+              class="btn btn-branding"
+              title="portfolio link"
+              >See my projects</a
+            >
           </div>
         </div>
         <div class="col-12 col-lg-6">
           <img src="./images/shermika.jpeg" alt="shermika" class="img-fluid" />
         </div>
+
+        <footer>
+          <div
+            class="contact-box d-flex justify-content-between d-none d-md-flex"
+          >
+            <div>
+              <h4>Work Inquiry</h4>
+              <p class="text-muted">Let's work together</p>
+            </div>
+            <div>
+              <a
+                href="./contact.html"
+                class="btn btn-branding"
+                title="contact me page"
+                >Contact me</a
+              >
+            </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <a
+              href="mailto:shermikadaniels@gmail.com"
+              class="email-link"
+              title="email me link"
+              >shermikadaniels@gmail.com</a
+            >
+          </div>
+          <div class="social-links d-flex justify-content-center">
+            <a
+              href="https://www.linkedin.com/in/shermika-daniels-70093b139"
+              target="_blank"
+              title="linkedin page link"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a
+              href="mailto:shermikadaniels@gmail.com"
+              target="_blank"
+              title="gmail email link"
+            >
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a
+              href="https://github.com/ShermikaDaniels/Portfolio-Project"
+              target="_blank"
+              title="github link"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+          <p class="text-center mt-4">
+            This project was coded by Shermika Daniels, and it is
+            <a
+              href="https://github.com/ShermikaDaniels/Portfolio-Project"
+              target="_blank"
+              >open-sourced</a
+            >.
+          </p>
+        </footer>
       </div>
     </div>
   </body>
